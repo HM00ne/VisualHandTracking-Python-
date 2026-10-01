@@ -1,0 +1,5 @@
+# Tested with mediapipe 0.10.32 and 1.0.1. mediapipe pulls in opencv-contrib-python;
+# do NOT also install opencv-python (both provide "cv2" and conflict).
+mediapipe>=0.10.21
+opencv-contrib-python>=4.9
+numpy>=1.24
